@@ -2,7 +2,8 @@
 
 baseURL: https://example.com/
 title: Hugo Book
-theme: book
+# theme: book
+theme: book-fork
 
 # Book configuration
 disablePathToLower: true
@@ -16,6 +17,13 @@ markup:
   tableOfContents:
     startLevel: 1
 
+# Code highlight
+pygmentsStyle: solarized-dark
+# pygmentsStyle: solarized-dark256
+# pygmentsStyle: solarized-light
+# pygmentsStyle: molekai
+
+pygmentsCodeFences: true
 # Multi-lingual mode config
 # There are different options to translate files
 # See https://gohugo.io/content-management/multilingual/#translation-by-filename
